@@ -88,6 +88,7 @@ a:hover {
 
 .about-text {
     padding: 1rem;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 800px) {
