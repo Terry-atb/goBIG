@@ -1,0 +1,300 @@
+body {
+    font-size: smaller!important;
+    font-weight: 400!important;
+    font-family: 'Ubuntu', sans-serif!important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem!important;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+.row {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+.carousel-caption {
+    bottom: 20%!important;
+}
+
+.carousel-head {
+    font-family: 'Rowdies', cursive;
+    font-size: 6vw;
+}
+
+.header {
+    font-size: 5vw;
+    margin: 0rem;
+    font-family: 'Acme', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 10vw;
+    }
+}
+
+.hr-header{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 75%;
+    border: 2px solid rgba(0,0,0,0.7);
+}
+
+#nav-header {
+    font-family: 'Acme', sans-serif;
+}
+
+.nav-body {
+    transition: 1s;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0rem 0rem 1rem red;
+}
+
+.box {
+    color: white;
+    background-color: black;
+}
+
+.box:hover {
+    color: green;
+}
+
+.box-mdl {
+    background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+}
+
+.hr-about {
+    width: 15%;
+    border: 4px solid green;
+    margin-top: 0rem;
+}
+
+.about-main {
+    background-color: rgba(210,210,255, 0.9);
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    box-shadow: 0rem 0rem 1rem black;
+    background-color: rgba(240,240,240, 1);
+}
+
+.about-text {
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-main {
+        padding: 10px;
+    }
+
+    .about-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+#register {
+    margin-top: 4rem;
+}
+
+.card-attr {
+    font-size: 16px;
+    padding: 2rem;
+    padding-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.card{
+    margin: 10px;
+    margin-top: 0rem;
+    box-shadow: 0px 0px 5px black;    
+    color: rgba(240,240,240, 0.9);
+}
+
+.card-title {
+    color: green;
+    font-size: large;
+    margin-bottom: 1rem!important;
+}
+
+@media screen and (max-width: 600px){
+    .card {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+}
+
+.hr-register {
+    width: 31%;
+    border: 4px solid green;
+    margin-top: 0rem;
+}
+
+.hr-facts {
+    width: 12%;
+    border: 4px solid green;
+    margin-top: 0rem;
+}
+
+.facts-main {
+    background-color: rgba(210,210,255, 0.9);
+    padding: 2rem;
+}
+
+.facts-content {
+    background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+    color: rgb(0,255,0);
+    padding: 1rem;
+    box-shadow: 0rem 0rem 1rem gray;
+}
+
+@media only screen and (max-width: 600px){
+    .facts-main {
+        padding: 1rem;
+    }
+
+    .facts-content {
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+.hr-services {
+    width: 15%;
+    border: 4px solid green;
+    margin-top: 0rem;
+}
+
+.services {
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 1rem;
+    transition: 0.7s;
+}
+
+.services:hover {
+    box-shadow: 0 0 1rem gray;
+}
+
+.service-content {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.hr-team {
+    width: 28%;
+    border: 4px solid green;
+    margin-top: 0rem;
+}
+
+.member {
+    /* background-color: aqua; */
+    height: 350px;
+    padding-top: 1rem;
+    transition: 0.7s;
+}
+
+.member:hover {
+    box-shadow: 0rem 0rem 1rem black;
+    background-color: rgba(240,240,240, 0.9);
+}
+  
+.team-img {
+    height: 60%;
+    width: 70%;
+}
+
+.member-content {
+    background-color: rgba(240,240,240, 0.9);
+    width: 70%;
+    padding: 10px;
+}
+
+.hr-foot {
+    border: 1px solid green;
+}
+
+.hr-footer {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid gray;
+}
+
+.footer-main {
+    /* background-color: #242323; */
+    background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+    color: white;
+    padding: 1rem;
+}
+
+.footer-quote {
+    padding: 2rem;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: rgba(240,240,240, 1);
+    /* color: white; */
+}
+
+.about-btn {
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.about-btn:hover {
+    background-color: green;
+}
+
+.hr-quote {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid green;
+}
+
+.contact-detail {
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    margin: 10px;
+    box-shadow: 0 0 10px grey;
+    text-align: center;
+}
+
+.contact-img {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 5px;
+    margin-left: 1rem;
+}
+
+.contact-img:hover {
+    background-color: green;
+}
+
+
+/* 
+
+fonts used
+
+font-family: 'Ubuntu', sans-serif; 
+font-family: 'Acme', sans-serif;
+font-family: 'Rowdies', cursive;
+
+*/

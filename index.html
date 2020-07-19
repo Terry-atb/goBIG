@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goBIG.com</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- end CSS -->
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <!-- end fonts -->
+    <!-- scripts -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="./js/main.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- end scripts -->
+</head>
+<body>
+    <section id="topbar">
+      <div class="container p-2 d-md-block d-none">
+        <div class="d-inline">
+          <img class="d-inline mr-2" height="24px" src="./images/gmail.png" alt="gmail-ico">
+          <p class="d-inline">info@goBIG.org.in</p>
+          <img class="d-inline mr-2 ml-4" height="24px" src="./images/call.png" alt="call-logo">
+          <p class="d-inline">+91 9999 9999</p>
+        </div>
+        <div class="d-inline float-right">
+          <a href="#"><img class="mr-3" height="24px" src="./images/linkedin.png" alt="linkedin-logo"></a>
+          <a href="#"><img class="mr-3" height="24px" src="./images/twitter.png" alt="twitter-logo"></a>
+          <a href="#"><img class="mr-3" height="24px" src="./images/facebook.png" alt="facebook-logo"></a>
+         <a href="#"><img class="mr-3" height="24px" src="./images/insta.png" alt="instagram-logo"></a>
+        </div>
+      </div>
+      <hr class="mt-0">
+    </section>
+    <!-- header -->
+    <section id="header">
+        <div class="header">
+            <div class="header-name p-1 text-dark font-weight-bold text-center">
+                <p>goBIG.com</p>
+            </div>
+            <hr class="hr-header">
+        </div>
+    </section>
+    <!-- end header -->
+    <!-- navbar -->
+    <section id="nav">
+      <nav class="navbar navbar-expand-lg navbar-light font-weight-bold">
+        <a class="navbar-brand text-light" id="nav-header" href="#"></a>
+        
+        <button class="navbar-toggler p-1" id="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <a class="nav-link nav-text text-dark" href="#">Home</a>
+              <a class="nav-link nav-text text-dark" href="#about">About US</a>
+              <a class="nav-link nav-text text-dark" href="#">Our Clients</a>
+              <a class="nav-link nav-text text-dark" href="#contact">Contact US</a>
+              <a class="nav-link nav-text btn btn-success ml-3 text-light" href="#">Register</a>
+        </div>    
+      </nav>
+    </section>
+    <!-- end navbar -->
+    <!-- carousal -->
+    <section id="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="5000">
+                <img src="./images/c1.jpg" class="d-block w-100 contrast" alt="...">
+                <div class="carousel-caption d-md-block" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                  <h2 class="carousel-head">Professionally Organised Team</h2>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="5000">
+                <img src="./images/c2.jpg" class="d-block w-100 contrast" alt="...">
+                <div class="carousel-caption d-md-block" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                  <h2 class="carousel-head">Expand GLobally</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="5000" data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom">
+                <img src="./images/c3.jpg" class="d-block w-100 contrast" alt="...">
+                <div class="carousel-caption d-md-block" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">
+                  <p class="carousel-head">Start your dream Company</p>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </section>
+    <!-- end carousel -->
+    <!-- ideology -->
+    <section id="ideologies">
+      <div class="row w-100">
+        <div class="col-lg-4 box p-4">
+          <div><img src="./images/client.png" alt="support"></div>
+          <h6 class="font-weight-bolder">Serve the Client</h6>
+          <p data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom">Lorem ipsum dolor sit amet consectetur. Eveniet exercitationem minus adipisci Provident blanditiis ratione iusto in laboriosam.
+          </p>
+        </div>
+        <div class="col-lg-4 box box-mdl p-4">
+          <div><img src="./images/support.png" alt="support"></div>
+          <h6 class="font-weight-bolder">Support the Client</h6>
+          <p data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet exercitationem minus adipisci Provident iusto in laboriosam.
+          </p>
+        </div>
+        <div class="col-lg-4 box p-4">
+          <div><img src="./images/community.png" alt="support"></div>
+          <h6 class="font-weight-bolder">Strengthen the community</h6>
+          <p data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom">Lorem ipsum dolor sit amet csicing elit. Eveniet exercitationem minus adipisci Provident blanditiis ratione iusto in laboriosam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end ideology -->
+    <!-- about us -->
+    <section id="about">
+        <div class="container d-block text-center">
+          <p class="text-muted small mt-5">WHO ARE WE?</p>
+          <div class="h2 font-weight-bolder">About US</div>
+          <hr class="hr-about"><br>
+        </div>
+          <div class="about-main">
+          <div class="container">
+            <div class="row about-content">
+              <div class="col-md-6 col-12" data-aos="fade-up">
+                <img src="./images/abt.jpg" class="img-fluid p-1"/>
+              </div>
+              <div class="col-md-6 col-12">
+                <h2 class="font-weight-bolder p-2 m-3" style="font-family:'Acme',sans-serif;">goBIG Corporation</h2>
+                <div class="about-text" data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                  Our company is a Start Up which is funded by Indian Government with a idea
+                  of increasing the scope of Indian market in world globalisation. We help our
+                  clients to make their products available to more regions instead of their native.
+                  Client can choose on which level he/she has to launch its product, it can be 
+                  launched in native nation as well as globally. Our startup is approved by more
+                  than 5 nations and many more approvals are in the way. It is permitted as well 
+                  as legalised..... <a class="text-success" href="#">Read more</a>  
+                </div>
+                <center class="d-md-block d-none">
+                  <img src="./images/ad.jpg" class="img-fluid w-25 h-25 mr-3 mt-2" />
+                  <img src="./images/worldmap.png" class="img-fluid w-25 h-25 mr-3 mt-2" />
+                  <img src="./images/buyers.png" class="img-fluid w-25 h-25 mr-3 mt-2" />
+                </center>    
+              </div>
+            </div>
+          </div>
+          </div>
+  
+    </section>
+    <!-- end about us -->
+    <!-- register -->
+    <section id="register">
+      <div class="container d-block text-center">
+        <p class="text-muted small">WANT TO WORK?</p>
+        <div class="h2 font-weight-bolder">REGISTER WITH US</div>
+        <hr class="hr-register"><br><br>
+      </div>  
+      <div class="row card-attr">
+        <div class="col-lg col-md-5 col-12 w-50 bg-dark card" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <center>
+            <img class="card-img-top w-25 pt-3" src="https://image.flaticon.com/icons/svg/860/860784.svg" alt="Card image">
+          </center>
+            <div class="card-body">
+              <p class="card-title text-center font-weight-bold">Register Email</p>
+              <p class="card-text text-center">Register your business email and organisation with us.</p>
+              <center>
+              <a href="#">
+                <img class="mt-3" style="background-color: rgb(0, 1, 1); border-radius: 3rem; width: 25%; padding: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAD30lEQVRoge2Y32scVRTHv2dmk0ZDY4r0x6NP+rDZSePsGEGwfbMPFp80D/Z3UdrabXZDWvu4jz7IzmCbVgW1ilYpikWsYEIiiuCaZFNmhvwdJgUburszx4cYkZA099w7S0T6eZ373e/37Jm5Z+YCj/gf8Myvl3Zul7dlpGaQM1+Z2NHTWnIaY+WMMonQL4BBTqNyFcA5ABaY/cJc+VJmyRQhLRWDnEZ5AqCz668QeDQsBlfMo6khL2D1n78G4MxmK5hxIfb8q0bJFJEVwFVrsLH0EYNObLWSiUuxG0xoJ1NEvQCuWk5j6ROAjqkqiOls6NU+0IumhvJD7CwsvyAIDwDExNcLjbE3NHIpo1xA7wPMg+kX4e8TMb/vzFVOC3XqBpLF7vybjzfRe4eAg0Kfjt1O4l3ICcd70U7ugHFAKGUmnIld/0Op58PQmgNOON6LZvoDiF8USlMwnYy82mc6vhuhNYmjwXf/fCxpHQZQF/sRfzw4Vz6q47sRepP4b4brpb6VXG4SwLBQmhDRidCtfW7iDxi+zP3+/JV7Xeh+CcCsUGoz843BxtgRE3/AsANruPNvP9FCcxLAc0JpwsTHYzf4Qtc7kwIAYP/dcn+SWpPE7AmlCQPH4qJ/U8c3swKA1SLSNk2BUBRKEzAfjbzgS6lnpgUApkXgSOT5X0lEmRcAAIXo8i5qPpgC4AqlLQa/FheD26oCs0/KTYidd/7ognUIQCyUdhHoVmGu8oqqoCMdWGNoobQ7Se0ZgAaE0iZbfDB+Nvhtq4Ud6cAaTHaLyVrRkHZbbD2psrBjBey/W+5PE/pRY1tlEFVCt/a9yuKcRrYt+WcmQCM8qBy5tfdUBR3ZRjUHmtaJhi00eSiF6PIutJIpAsThmXEh8gLxSUZmHTDY+41OMDLpwNBCaTe3eQbAkFDKAM7HxeCarrdxB1b3+tw0gIJQygDOR0VfOzxg2AEnHN/DCWmGp7eion/dxB8w6IATju9Bqz2tMWVTJjodu7Ubut7/RqsDA/XRvQTovCKkAE7FRf9THd+NEE/igfroXitnTQPIC6UJgFNRhuEBYQfysxf3WTbPkEZ4Yj4ZeUFmxylrKD8D+dmL+2yr/TOAp4Ue2l9bKijfQpadHII8fHv1K6sz4QFBAWlP300Qfyf47TYRXpd+IkpRLmAxX20mPf2vKhaRMHA8dP1bBtmUEM+B/GK1276//DUIhzdZ0tF7fj1agyy/WO22V5a/AfDyukstIoyErv+teTQ1tCfxBkU0GTwiOVHIAqOXuad+qvb07bx3G+ADYBqJvJrkIf+PwFVruF7q2+4Yj9gu/gLap3DaILwk2AAAAABJRU5ErkJggg==">
+              </a>
+              </center>
+            </div>
+        </div>
+        <div class="col-lg col-md-5 col-12 w-50 bg-dark card" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+        <center>
+          <img class="card-img-top w-25 pt-3" src="https://img.icons8.com/wired/64/000000/add-property.png" alt="Card image">
+        </center>
+              <div class="card-body">
+                <p class="card-title text-center font-weight-bold">Add Products</p>
+                <p class="card-text text-center">Add your detailed product list.</p>
+                <center>
+                  <a href="#">
+                    <img class="mt-3" style="background-color: rgb(0, 1, 1); border-radius: 3rem; width: 25%; padding: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAD30lEQVRoge2Y32scVRTHv2dmk0ZDY4r0x6NP+rDZSePsGEGwfbMPFp80D/Z3UdrabXZDWvu4jz7IzmCbVgW1ilYpikWsYEIiiuCaZFNmhvwdJgUburszx4cYkZA099w7S0T6eZ373e/37Jm5Z+YCj/gf8Myvl3Zul7dlpGaQM1+Z2NHTWnIaY+WMMonQL4BBTqNyFcA5ABaY/cJc+VJmyRQhLRWDnEZ5AqCz668QeDQsBlfMo6khL2D1n78G4MxmK5hxIfb8q0bJFJEVwFVrsLH0EYNObLWSiUuxG0xoJ1NEvQCuWk5j6ROAjqkqiOls6NU+0IumhvJD7CwsvyAIDwDExNcLjbE3NHIpo1xA7wPMg+kX4e8TMb/vzFVOC3XqBpLF7vybjzfRe4eAg0Kfjt1O4l3ICcd70U7ugHFAKGUmnIld/0Op58PQmgNOON6LZvoDiF8USlMwnYy82mc6vhuhNYmjwXf/fCxpHQZQF/sRfzw4Vz6q47sRepP4b4brpb6VXG4SwLBQmhDRidCtfW7iDxi+zP3+/JV7Xeh+CcCsUGoz843BxtgRE3/AsANruPNvP9FCcxLAc0JpwsTHYzf4Qtc7kwIAYP/dcn+SWpPE7AmlCQPH4qJ/U8c3swKA1SLSNk2BUBRKEzAfjbzgS6lnpgUApkXgSOT5X0lEmRcAAIXo8i5qPpgC4AqlLQa/FheD26oCs0/KTYidd/7ognUIQCyUdhHoVmGu8oqqoCMdWGNoobQ7Se0ZgAaE0iZbfDB+Nvhtq4Ud6cAaTHaLyVrRkHZbbD2psrBjBey/W+5PE/pRY1tlEFVCt/a9yuKcRrYt+WcmQCM8qBy5tfdUBR3ZRjUHmtaJhi00eSiF6PIutJIpAsThmXEh8gLxSUZmHTDY+41OMDLpwNBCaTe3eQbAkFDKAM7HxeCarrdxB1b3+tw0gIJQygDOR0VfOzxg2AEnHN/DCWmGp7eion/dxB8w6IATju9Bqz2tMWVTJjodu7Ubut7/RqsDA/XRvQTovCKkAE7FRf9THd+NEE/igfroXitnTQPIC6UJgFNRhuEBYQfysxf3WTbPkEZ4Yj4ZeUFmxylrKD8D+dmL+2yr/TOAp4Ue2l9bKijfQpadHII8fHv1K6sz4QFBAWlP300Qfyf47TYRXpd+IkpRLmAxX20mPf2vKhaRMHA8dP1bBtmUEM+B/GK1276//DUIhzdZ0tF7fj1agyy/WO22V5a/AfDyukstIoyErv+teTQ1tCfxBkU0GTwiOVHIAqOXuad+qvb07bx3G+ADYBqJvJrkIf+PwFVruF7q2+4Yj9gu/gLap3DaILwk2AAAAABJRU5ErkJggg==">
+                  </a>
+                  </center>
+              </div>
+        </div>
+        <div class="col-lg col-md-5 col-12 w-50 bg-dark card" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <center>
+          <img class="card-img-top w-25 pt-3" src="https://img.icons8.com/dotty/80/000000/activity-history.png" alt="Card image">
+          </center>    
+              <div class="card-body">
+                <p class="card-title text-center font-weight-bold">Address Details</p>
+                <p class="card-text text-center">Provide us with your address details so that we can figure out the logistics.</p>
+                <center>
+                  <a href="#">
+                    <img class="mt-3" style="background-color: rgb(0, 1, 1); border-radius: 3rem; width: 25%; padding: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAD30lEQVRoge2Y32scVRTHv2dmk0ZDY4r0x6NP+rDZSePsGEGwfbMPFp80D/Z3UdrabXZDWvu4jz7IzmCbVgW1ilYpikWsYEIiiuCaZFNmhvwdJgUburszx4cYkZA099w7S0T6eZ373e/37Jm5Z+YCj/gf8Myvl3Zul7dlpGaQM1+Z2NHTWnIaY+WMMonQL4BBTqNyFcA5ABaY/cJc+VJmyRQhLRWDnEZ5AqCz668QeDQsBlfMo6khL2D1n78G4MxmK5hxIfb8q0bJFJEVwFVrsLH0EYNObLWSiUuxG0xoJ1NEvQCuWk5j6ROAjqkqiOls6NU+0IumhvJD7CwsvyAIDwDExNcLjbE3NHIpo1xA7wPMg+kX4e8TMb/vzFVOC3XqBpLF7vybjzfRe4eAg0Kfjt1O4l3ICcd70U7ugHFAKGUmnIld/0Op58PQmgNOON6LZvoDiF8USlMwnYy82mc6vhuhNYmjwXf/fCxpHQZQF/sRfzw4Vz6q47sRepP4b4brpb6VXG4SwLBQmhDRidCtfW7iDxi+zP3+/JV7Xeh+CcCsUGoz843BxtgRE3/AsANruPNvP9FCcxLAc0JpwsTHYzf4Qtc7kwIAYP/dcn+SWpPE7AmlCQPH4qJ/U8c3swKA1SLSNk2BUBRKEzAfjbzgS6lnpgUApkXgSOT5X0lEmRcAAIXo8i5qPpgC4AqlLQa/FheD26oCs0/KTYidd/7ognUIQCyUdhHoVmGu8oqqoCMdWGNoobQ7Se0ZgAaE0iZbfDB+Nvhtq4Ud6cAaTHaLyVrRkHZbbD2psrBjBey/W+5PE/pRY1tlEFVCt/a9yuKcRrYt+WcmQCM8qBy5tfdUBR3ZRjUHmtaJhi00eSiF6PIutJIpAsThmXEh8gLxSUZmHTDY+41OMDLpwNBCaTe3eQbAkFDKAM7HxeCarrdxB1b3+tw0gIJQygDOR0VfOzxg2AEnHN/DCWmGp7eion/dxB8w6IATju9Bqz2tMWVTJjodu7Ubut7/RqsDA/XRvQTovCKkAE7FRf9THd+NEE/igfroXitnTQPIC6UJgFNRhuEBYQfysxf3WTbPkEZ4Yj4ZeUFmxylrKD8D+dmL+2yr/TOAp4Ue2l9bKijfQpadHII8fHv1K6sz4QFBAWlP300Qfyf47TYRXpd+IkpRLmAxX20mPf2vKhaRMHA8dP1bBtmUEM+B/GK1276//DUIhzdZ0tF7fj1agyy/WO22V5a/AfDyukstIoyErv+teTQ1tCfxBkU0GTwiOVHIAqOXuad+qvb07bx3G+ADYBqJvJrkIf+PwFVruF7q2+4Yj9gu/gLap3DaILwk2AAAAABJRU5ErkJggg==">
+                  </a>
+                  </center>
+              </div>
+        </div>
+        <div class="col-lg col-md-5 col-12 w-50 bg-dark card" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <center>
+          <img class="card-img-top w-25 pt-3" src="https://img.icons8.com/dotty/80/000000/phone-disconnected.png" alt="Card image">
+          </center>
+          <div class="card-body">
+            <p class="card-title text-center font-weight-bold">Get a Verification call</p>
+            <p class="card-text text-center">Get on a call with our Executive and get your profile verified.</p>
+            <center>
+              <a href="#">
+                <img class="mt-3" style="background-color: rgb(0, 1, 1); border-radius: 3rem; width: 25%; padding: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAD30lEQVRoge2Y32scVRTHv2dmk0ZDY4r0x6NP+rDZSePsGEGwfbMPFp80D/Z3UdrabXZDWvu4jz7IzmCbVgW1ilYpikWsYEIiiuCaZFNmhvwdJgUburszx4cYkZA099w7S0T6eZ373e/37Jm5Z+YCj/gf8Myvl3Zul7dlpGaQM1+Z2NHTWnIaY+WMMonQL4BBTqNyFcA5ABaY/cJc+VJmyRQhLRWDnEZ5AqCz668QeDQsBlfMo6khL2D1n78G4MxmK5hxIfb8q0bJFJEVwFVrsLH0EYNObLWSiUuxG0xoJ1NEvQCuWk5j6ROAjqkqiOls6NU+0IumhvJD7CwsvyAIDwDExNcLjbE3NHIpo1xA7wPMg+kX4e8TMb/vzFVOC3XqBpLF7vybjzfRe4eAg0Kfjt1O4l3ICcd70U7ugHFAKGUmnIld/0Op58PQmgNOON6LZvoDiF8USlMwnYy82mc6vhuhNYmjwXf/fCxpHQZQF/sRfzw4Vz6q47sRepP4b4brpb6VXG4SwLBQmhDRidCtfW7iDxi+zP3+/JV7Xeh+CcCsUGoz843BxtgRE3/AsANruPNvP9FCcxLAc0JpwsTHYzf4Qtc7kwIAYP/dcn+SWpPE7AmlCQPH4qJ/U8c3swKA1SLSNk2BUBRKEzAfjbzgS6lnpgUApkXgSOT5X0lEmRcAAIXo8i5qPpgC4AqlLQa/FheD26oCs0/KTYidd/7ognUIQCyUdhHoVmGu8oqqoCMdWGNoobQ7Se0ZgAaE0iZbfDB+Nvhtq4Ud6cAaTHaLyVrRkHZbbD2psrBjBey/W+5PE/pRY1tlEFVCt/a9yuKcRrYt+WcmQCM8qBy5tfdUBR3ZRjUHmtaJhi00eSiF6PIutJIpAsThmXEh8gLxSUZmHTDY+41OMDLpwNBCaTe3eQbAkFDKAM7HxeCarrdxB1b3+tw0gIJQygDOR0VfOzxg2AEnHN/DCWmGp7eion/dxB8w6IATju9Bqz2tMWVTJjodu7Ubut7/RqsDA/XRvQTovCKkAE7FRf9THd+NEE/igfroXitnTQPIC6UJgFNRhuEBYQfysxf3WTbPkEZ4Yj4ZeUFmxylrKD8D+dmL+2yr/TOAp4Ue2l9bKijfQpadHII8fHv1K6sz4QFBAWlP300Qfyf47TYRXpd+IkpRLmAxX20mPf2vKhaRMHA8dP1bBtmUEM+B/GK1276//DUIhzdZ0tF7fj1agyy/WO22V5a/AfDyukstIoyErv+teTQ1tCfxBkU0GTwiOVHIAqOXuad+qvb07bx3G+ADYBqJvJrkIf+PwFVruF7q2+4Yj9gu/gLap3DaILwk2AAAAABJRU5ErkJggg==">
+              </a>
+            </center>
+          </div>
+        </div>
+      </div>       
+    </section>
+    <!-- end register -->
+    <!-- facts -->
+    <section id="facts">
+      <div class="container d-block text-center">
+        <p class="text-muted small">WHY US?</p>
+        <div class="h2 font-weight-bolder">FACTS</div>
+        <hr class="hr-facts"><br><br>
+      </div>
+      <div class="facts-main">
+        <div class="row">
+          <div class="col-lg-3 col-6" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <div class="facts-content">
+              <center><img height="64px" src="./images/client.png" alt="client-logo"/></center>
+              <p class="text-center h3 font-weight-bolder">10+</p>
+              <p class="text-center text-white">Clients</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <div class="facts-content">  
+              <center><img height="64" src="./images/productpng.png" alt="product-logo"></center>
+              <p class="text-center h3 font-weight-bolder">23+</p>
+              <p class="text-center text-white">Products</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <div class="facts-content">
+              <center><img height="64px" src="./images/working.png" alt="worker-logo"></center>
+              <p class="text-center h3 font-weight-bolder">20+</p>
+              <p class="text-center text-white">Hard workers</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <div class="facts-content">
+              <center><img height="64px" src="./images/audit.png" alt="audit-logo"></center>
+              <p class="text-center h3 font-weight-bolder">5+</p>
+              <p class="text-center text-white">Approved Nations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end facts -->
+    <!-- service -->
+    <section id="service">
+      <div class="container mt-5 text-center">
+        <p class="text-muted small">WHAT DO WE PROVIDE?</p>
+        <div class="h2 font-weight-bolder">Services</div>
+        <hr class="hr-services"><br><br>
+        <div class="row">
+          <div class="col-lg-4 col-6 services" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <img src="https://img.icons8.com/nolan/48/sell.png"/>
+            <p><span class="text-success">SELL</span> your Companies Products</p>
+            <p class="service-content">Our company will help you to sell your products with promising profit within certain time on large scale with few percent of profit share on products.
+            </p>
+          </div>
+          <div class="col-lg-4 col-6 services" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <img src="https://img.icons8.com/cotton/48/000000/earth-planet--v1.png"/>
+            <p>Helps to <span class="text-success">EXPAND</span> globally</p>
+            <p class="service-content">We help our client to make there product globallly available where we have trusted buyers. They will buy client products.</p>
+          </div>
+          <div class="col-lg-4 col-6 services" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0 0 225 225"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,225.99431v-225.99431h225.99431v225.99431z" fill="none"></path><g fill="#2ecc71"><path d="M112.5,13.18359c-38.84766,0 -70.66406,30.05791 -72.94922,68.72978c-8.4375,1.93359 -14.06181,10.37247 -12.47978,18.98575l5.97725,33.57353c1.40625,7.91016 8.25966,13.71231 16.3456,13.71231c0.87891,0 1.93291,-0.00275 2.81181,-0.17853l14.24103,-2.45819c2.8125,-0.52734 4.74335,-3.16406 4.216,-6.15234l-7.20635,-40.60821c3.33984,-5.97656 6.85478,-9.4915 10.72197,-10.72197c7.38281,-2.28516 17.58019,2.99034 29.35753,9.14269c13.71094,7.20703 30.40878,15.82031 49.56894,15.82031c2.10938,0 4.21806,-0.17784 6.32744,-0.35362l-4.216,27.24609v0.1751c-16.17187,36.03516 -35.33272,39.9044 -42.89131,39.9044c-7.38281,0 -21.79756,-3.51494 -35.86006,-26.54228c-1.58203,-2.46094 -4.74541,-3.33984 -7.20634,-1.75781c-2.46094,1.58203 -3.33984,4.74541 -1.75781,7.20635c16.69922,27.59765 35.33203,31.64062 44.82422,31.64062c26.89453,0 43.94325,-28.30078 51.50185,-43.94531l8.96759,1.40419c0.87891,0.17578 1.93291,0.17853 2.81181,0.17853c8.08594,0 14.93935,-5.80215 16.3456,-13.71231l5.97725,-33.57353c1.58203,-8.61328 -4.04228,-16.87637 -12.47978,-18.98575c-2.28516,-38.49609 -34.27734,-68.72978 -72.94922,-68.72978zM112.67509,23.38028c32.16797,0 58.88741,24.43359 62.22725,56.25l-2.81181,-0.52872c-7.38281,-31.28906 -28.65303,-49.39384 -59.59053,-49.39384c-26.89453,0 -46.7585,13.88603 -56.07491,38.84697c-1.05469,2.8125 0.35294,5.80147 3.16544,6.85616c2.8125,1.05469 5.80147,-0.35294 6.85615,-3.16544c7.55859,-20.91797 23.55331,-32.51816 46.05331,-31.99081c43.59375,1.05469 38.32169,61.34834 38.32169,61.34834c-20.03906,2.98828 -26.89728,-5.97656 -42.36603,-14.0625c-13.88672,-7.20703 -25.83778,-13.5379 -37.43935,-9.8465c-3.69141,1.23047 -7.03331,3.34259 -10.02159,6.33087l-0.1751,-0.87891c-0.17578,-1.40625 -1.05331,-2.6374 -2.108,-3.34053c-1.23047,-0.87891 -2.63878,-1.05469 -3.86925,-0.87891l-4.39453,0.70381c3.33984,-31.81641 29.8835,-56.25 62.22725,-56.25zM51.32675,90.52734l7.91016,45.52803l-8.96416,1.58272c-0.35156,0 -0.70244,0.1751 -1.054,0.1751c-2.98828,0 -5.44991,-2.11006 -5.97725,-5.09834l-5.97725,-33.57353c-0.52734,-3.33984 1.5834,-6.50391 4.92325,-7.03125zM173.67325,90.52734l8.96416,1.58272c3.33984,0.52734 5.44716,3.69141 4.91982,7.03125l-5.97382,33.57353c-0.52734,2.98828 -2.98897,5.09834 -5.97725,5.09834c-0.35156,0 -0.70244,0.00069 -1.054,-0.1751l-8.08868,-1.40762zM90.70244,188.78975c-0.17578,0 -0.3495,-0.00069 -0.52528,0.1751h-0.17853c-0.17578,0 -0.17441,-0.00069 -0.35019,0.1751h-0.35019l-38.8504,15.82031c-2.63672,1.05469 -4.04228,4.21944 -2.81181,6.85615c0.87891,2.28516 2.98897,3.51563 5.09834,3.51563c0.70313,0 1.40556,-0.17441 1.93291,-0.35019l33.92716,-13.8874c4.57031,8.78906 13.53447,14.2376 23.90556,14.2376c10.37109,0 19.33525,-5.44853 23.90556,-14.2376l33.92716,13.8874c0.70313,0.35156 1.40556,0.35019 1.93291,0.35019c2.10938,0 4.04434,-1.23115 4.92325,-3.34053c1.05469,-2.63672 -0.17852,-5.80147 -2.81524,-6.85615l-38.84697,-15.82031c-2.63672,-1.05469 -5.80147,0.17852 -6.85615,2.81524c0,0.17578 -0.1751,0.34951 -0.1751,0.52529c-2.63672,8.96484 -9.84306,12.12959 -15.99541,12.12959c-5.97656,0 -13.35869,-3.16475 -15.99541,-12.12959c0,-0.17578 0.00069,-0.17441 -0.1751,-0.35019v-0.35362c0,0 -0.00275,-0.1751 -0.17853,-0.1751c0,-0.17578 -0.1751,-0.34951 -0.1751,-0.52529c0,-0.17578 -0.17441,-0.35362 -0.35019,-0.35362c-0.17578,-0.17578 -0.17784,-0.35019 -0.35362,-0.35019l-0.35019,-0.35362l-0.35019,-0.35019c-0.17578,-0.17578 -0.35362,-0.17441 -0.35362,-0.35019c-0.17578,0 -0.35019,-0.17852 -0.35019,-0.17852c-0.17578,0 -0.35294,-0.1751 -0.52872,-0.1751c-0.17578,0 -0.3495,-0.1751 -0.52528,-0.1751c-0.17578,0 -0.35294,0.00069 -0.52872,-0.1751h-0.52872h-0.52528z"></path></g></g></svg>
+           <p>Supports <span class="text-success">STARTUPS</span></p>
+           <p class="service-content">we also support startups, where we help our client to get fund from trusted sources.</p>
+          </div>
+          <div class="col-lg-4 col-6 services" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <img src="https://img.icons8.com/nolan/48/folded-booklet.png"/>
+            <p><span class="text-success">ADVERTISE</span> your product</p>
+            <p class="service-content">We offer advertisement package for those who can manufacture there own product and want to expand there business in varies areas.</p>
+          </div>
+          <div class="col-lg-4 col-6 services" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="48" height="48"
+viewBox="0 0 225 225"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,225.99431v-225.99431h225.99431v225.99431z" fill="none"></path><g fill="#2ecc71"><path d="M112.5,10.54688c-7.75547,0 -14.0625,6.30703 -14.0625,14.0625h-72.38617c-6.61289,0 -11.98883,5.51953 -11.98883,12.30469c0,4.96562 2.89418,9.22916 7.03125,11.17172v118.0275c0,7.2668 5.91328,13.18359 13.18359,13.18359h63.08212l-19.4458,29.71115c-1.06523,1.62422 -0.60798,3.80995 1.01624,4.87518c0.59414,0.38672 1.26167,0.56991 1.92261,0.56991c1.14609,0 2.27758,-0.55607 2.95258,-1.58615l21.09375,-32.23114c0.27446,-0.41848 0.43656,-0.87529 0.51498,-1.33896h3.57056v22.85156c0,1.94414 1.57148,3.51563 3.51563,3.51563c1.94414,0 3.51563,-1.57148 3.51563,-3.51562v-22.85156h3.57056c0.07842,0.46367 0.24052,0.92047 0.51498,1.33896l21.09375,32.23114c0.675,1.03008 1.80648,1.58615 2.95258,1.58615c0.65742,0 1.32847,-0.1832 1.92261,-0.56991c1.62422,-1.06523 2.08147,-3.25097 1.01624,-4.87518l-19.4458,-29.71115h63.08212c7.2668,0 13.18359,-5.9168 13.18359,-13.18359v-118.0275c4.13707,-1.94257 7.03125,-6.2061 7.03125,-11.17172c0,-6.78516 -5.37594,-12.30469 -11.98883,-12.30469h-72.38617c0,-7.75547 -6.30703,-14.0625 -14.0625,-14.0625zM112.5,17.57813c3.87773,0 7.03125,3.15352 7.03125,7.03125h-14.0625c0,-3.87773 3.15352,-7.03125 7.03125,-7.03125zM26.05133,31.64063h172.89734c2.73516,0 4.95758,2.36602 4.95758,5.27344c0,2.90742 -2.22242,5.27344 -4.95758,5.27344c-0.36686,0 -0.70457,0.10213 -1.03684,0.20599c-0.33366,-0.10483 -0.6682,-0.20599 -1.03684,-0.20599h-116.01562c-1.94414,0 -3.51562,1.57148 -3.51562,3.51563c0,1.94414 1.57148,3.51563 3.51563,3.51563h116.01563v116.89453c0,3.39258 -2.75977,6.15234 -6.15234,6.15234h-78.22266h-78.22266c-3.39258,0 -6.15234,-2.75977 -6.15234,-6.15234v-116.89453h10.54688c1.94414,0 3.51563,-1.57148 3.51563,-3.51562c0,-1.94414 -1.57148,-3.51562 -3.51562,-3.51562h-12.62054c-2.73516,0 -4.95758,-2.36602 -4.95758,-5.27344c0,-2.90742 2.22242,-5.27344 4.95758,-5.27344zM52.73438,42.1875c-1.94414,0 -3.51562,1.57148 -3.51562,3.51563c0,1.94414 1.57148,3.51563 3.51563,3.51563h14.0625c1.94414,0 3.51563,-1.57148 3.51563,-3.51562c0,-1.94414 -1.57148,-3.51562 -3.51562,-3.51562zM130.07813,63.28125c-1.94414,0 -3.51562,1.57148 -3.51562,3.51563v17.57813h-31.64062c-1.94414,0 -3.51562,1.57148 -3.51562,3.51563v14.0625h-31.64062c-1.94414,0 -3.51562,1.57148 -3.51562,3.51563v24.60938h-14.0625c-1.94414,0 -3.51562,1.57148 -3.51562,3.51563c0,1.94414 1.57148,3.51563 3.51563,3.51563h140.625c1.94414,0 3.51563,-1.57148 3.51563,-3.51562c0,-1.94414 -1.57148,-3.51562 -3.51562,-3.51562h-14.0625v-63.28125c0,-1.94414 -1.57148,-3.51562 -3.51562,-3.51562zM133.59375,70.3125h28.125v59.76563h-28.125v-42.1875zM98.4375,91.40625h28.125v38.67188h-28.125v-24.60937zM63.28125,108.98438h28.125v21.09375h-28.125zM42.1875,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562zM59.76563,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562zM77.34375,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562zM94.92188,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562zM112.5,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562zM130.07813,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562zM147.65625,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562zM165.23438,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562zM182.8125,151.17188c-1.93711,0 -3.51562,1.57852 -3.51562,3.51563v7.03125c0,1.93711 1.57852,3.51563 3.51563,3.51563c1.93711,0 3.51563,-1.57852 3.51563,-3.51562v-7.03125c0,-1.93711 -1.57852,-3.51562 -3.51562,-3.51562z"></path></g></g></svg>
+            <p><span class="text-success">MARKETING</span> guidance</p>
+            <p class="service-content">We also provide marketing guidance to various companies who want to increase their marketing approach.</p>
+          </div>
+          <div class="col-lg-4 col-6 services" data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="64" height="64"
+viewBox="0 0 225 225"
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,225.99431v-225.99431h225.99431v225.99431z" fill="none"></path><g fill="#2ecc71"><path d="M108.98438,1.71318c-4.52637,0 -9.05205,1.71524 -12.47978,5.14297c-2.10937,2.10937 -2.10937,5.44785 0,7.38144c1.93359,2.10938 5.44784,2.10938 7.38144,0c2.8125,-2.8125 7.38419,-2.8125 10.19669,0c6.85547,6.85547 18.10409,6.85547 24.95956,0c2.8125,-2.8125 7.38419,-2.8125 10.19669,0c3.51563,3.51562 7.90947,5.09834 12.47978,5.09834c4.57031,0 9.13994,-1.7585 12.47978,-5.09834c2.10938,-2.10937 2.10938,-5.44785 0,-7.38144c-2.10938,-2.10937 -5.44784,-2.10937 -7.38144,0c-2.8125,2.8125 -7.38419,2.8125 -10.19669,0c-6.85547,-6.85547 -18.10409,-6.85547 -24.95956,0c-2.8125,2.8125 -7.38419,2.8125 -10.19669,0c-3.42773,-3.42773 -7.95341,-5.14297 -12.47978,-5.14297zM188.08594,5.22881c-1.3623,0 -2.72392,0.48546 -3.69072,1.45226c-1.05469,1.05469 -1.58272,2.45956 -1.58272,3.86581c0,0.35156 -0.00069,0.70244 0.1751,1.054c0,0.35156 0.1751,0.70312 0.1751,0.87891c0.17578,0.35156 0.35293,0.70312 0.52871,0.87891c0.17578,0.35156 0.35225,0.52803 0.70381,0.70381c1.05469,1.05469 2.28447,1.58272 3.69072,1.58272c1.40625,0 2.81181,-0.52803 3.69072,-1.58272c1.05469,-1.05469 1.58272,-2.28447 1.58272,-3.69072c0,-1.40625 -0.52803,-2.81181 -1.58272,-3.69072c-0.9668,-0.9668 -2.32842,-1.45226 -3.69072,-1.45226zM54.49219,5.27344c-7.55859,0 -14.59122,2.98691 -19.86465,8.26035c-2.10937,2.10937 -2.10937,5.45128 0,7.38487c1.05469,1.05469 2.2879,1.58272 3.69415,1.58272c1.40625,0 2.63603,-0.52803 3.69072,-1.58272c3.33984,-3.33984 7.73369,-5.09834 12.47978,-5.09834h28.125c2.98828,0 5.27344,-2.28516 5.27344,-5.27344c0,-2.98828 -2.28516,-5.27344 -5.27344,-5.27344zM21.09375,28.125c-2.8125,0 -5.09766,2.28584 -5.27344,5.09834l-6.85616,179.47197h-1.93291c-2.98828,0 -5.27344,2.28516 -5.27344,5.27344c0,2.98828 2.28516,5.27344 5.27344,5.27344h7.03125h35.15625h0.17509c2.98828,-0.17578 5.09834,-2.63603 5.09834,-5.44853l-1.93291,-47.63603c-0.17578,-2.98828 -2.46025,-5.27412 -5.44853,-5.09834c-0.35156,0 -0.70519,-0.00069 -1.23253,0.17509h-24.60938l1.75781,-43.94531h17.22794l1.054,27.94991v0.52528v0.52872c0,0.17578 -0.00069,0.17441 0.17509,0.35019c0,0.17578 0.17784,0.52803 0.35362,0.70381c0,0 -0.00069,0.1751 0.1751,0.1751c0.17578,0.17578 0.3495,0.52803 0.52528,0.70381l0.17853,0.1751l0.52528,0.52872l0.1751,0.17509c0.17578,0.17578 0.35294,0.35362 0.52872,0.35362c0,0 0.17509,-0.00069 0.17509,0.1751c0.17578,0.17578 0.35225,0.17441 0.70381,0.35019c0.17578,0 0.17441,-0.00069 0.35019,0.1751c0.17578,0 0.35294,0.17853 0.52872,0.17853h0.70381h0.35019c0.17578,0 0.52803,-0.00275 0.70381,-0.17853h0.35019c0.17578,0 0.35294,-0.1751 0.52872,-0.1751c0.17578,0 0.35294,-0.17509 0.52872,-0.17509l65.38925,-32.69463v26.54228c0,1.75781 0.87959,3.51494 2.46162,4.56963c1.58203,0.87891 3.51631,1.054 5.09834,0.1751l62.57744,-31.287v91.58134h-112.3249c-2.98828,0 -5.27344,2.28516 -5.27344,5.27344c0,2.98828 2.28516,5.27344 5.27344,5.27344h126.3874c2.98828,0 5.27344,-2.28516 5.27344,-5.27344c0,-2.98828 -2.28516,-5.27344 -5.27344,-5.27344h-3.51562v-100.19531c0,-1.75781 -0.87959,-3.51494 -2.46162,-4.56963c-1.58203,-0.87891 -3.51631,-1.054 -5.09834,-0.1751l-62.57744,31.287v-26.54228c0,-1.75781 -0.87959,-3.51494 -2.46162,-4.56963c-1.58203,-0.87891 -3.51631,-1.054 -5.09834,-0.1751l-65.73944,32.86972l-4.04434,-107.40166c-0.17578,-2.8125 -2.46094,-5.09834 -5.27344,-5.09834zM26.017,38.67188h11.07216l1.58272,38.67188h-14.0625zM75.58594,159.96094c-4.92187,0 -8.78906,3.86719 -8.78906,8.78906v7.03125h17.57813v-7.03125c0,-4.92187 -3.86719,-8.78906 -8.78906,-8.78906zM105.46875,159.96094c-4.92187,0 -8.78906,3.86719 -8.78906,8.78906v7.03125h17.57813v-7.03125c0,-4.92187 -3.86719,-8.78906 -8.78906,-8.78906zM135.35156,159.96094c-4.92187,0 -8.78906,3.86719 -8.78906,8.78906v7.03125h17.57813v-7.03125c0,-4.92187 -3.86719,-8.78906 -8.78906,-8.78906zM165.23438,159.96094c-4.92187,0 -8.78906,3.86719 -8.78906,8.78906v7.03125h17.57813v-7.03125c0,-4.92187 -3.86719,-8.78906 -8.78906,-8.78906zM66.79688,186.32813v15.82031h17.57813v-15.82031zM96.67969,186.32813v15.82031h17.57813v-15.82031zM126.5625,186.32813v15.82031h17.57813v-15.82031zM156.44531,186.32813v15.82031h17.57813v-15.82031zM218.04771,212.77085c-0.43121,-0.01923 -0.86861,0.01167 -1.30806,0.09956c-0.35156,0 -0.70587,0.17784 -1.05743,0.35362c-0.35156,0.17578 -0.70312,0.34951 -0.87891,0.52529c-0.35156,0.17578 -0.5246,0.35225 -0.70038,0.70381l-0.70381,0.70381c-0.17578,0.35156 -0.35293,0.52734 -0.52871,0.87891c-0.17578,0.35156 -0.17441,0.70244 -0.35019,1.054c0,0.35156 -0.1751,0.70244 -0.1751,1.054c0,1.40625 0.5246,2.81181 1.57929,3.69072c0.35156,0.17578 0.70313,0.35293 0.87891,0.52871c0.35156,0.17578 0.52734,0.35293 0.87891,0.52871c0.35156,0.17578 0.70587,0.17441 1.05743,0.35019c0.35156,0 0.70244,0.1751 1.054,0.1751c0.35156,0 0.70244,0.00069 1.054,-0.1751c0.35156,0 0.70244,-0.17441 1.054,-0.35019c0.35156,-0.17578 0.52734,-0.35293 0.87891,-0.52871c0.35156,-0.17578 0.52734,-0.35225 0.87891,-0.70381c1.05469,-1.05469 1.58272,-2.28447 1.58272,-3.69072c0,-0.35156 0.00069,-0.70244 -0.1751,-1.054c0,-0.35156 -0.17784,-0.70244 -0.35362,-1.054c-0.17578,-0.35156 -0.34951,-0.52734 -0.52529,-0.87891c-0.17578,-0.35156 -0.35225,-0.52803 -0.70381,-0.70381c-0.92285,-0.92285 -2.14302,-1.44951 -3.43666,-1.50718z"></path></g></g></svg>
+            <p><span class="text-success">MANUFACTURE</span> for you</p>
+            <p class="service-content">We are also capable of taking manufacturing contracts from our client where we will provide you with your desired product.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end service -->
+    <!-- team -->
+    <section id="team">
+      <div class="container mt-5 text-center">
+        <p class="text-muted small">KNOW US?</p>
+        <div class="h2 font-weight-bolder">Our Team Heads</div>
+        <hr class="hr-team"><br><br>
+      </div>
+      <center class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 member" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="member" class="team-img">
+          <div class="member-content">
+            <p>ADVERTISING HEAD <br> MR. XYZ</p>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/twitter.png"/></a>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/linkedin-2.png"/></a>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/instagram-new.png"/></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 member" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="https://i.pinimg.com/564x/d9/56/9b/d9569bbed4393e2ceb1af7ba64fdf86a.jpg" alt="member" class="team-img">
+          <div class="member-content">
+            <p>MARKETING HEAD <br> MR. XYZ</p>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/twitter.png"/></a>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/linkedin-2.png"/></a>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/instagram-new.png"/></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 member" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="https://images.unsplash.com/photo-1507580433829-a0989f4d4469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="member" class="team-img">
+          <div class="member-content">
+            <p>MANAGING HEAD <br> MR. XYZ</p>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/twitter.png"/></a>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/linkedin-2.png"/></a>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/instagram-new.png"/></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 member" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
+          <img src="https://www.goodmorningimagesdownload.com/wp-content/uploads/2019/10/Alone-Images-HD-3.jpg" alt="member" class="team-img">
+          <div class="member-content">
+            <p>MONEY MAKER <br> MR. XYZ</p>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/twitter.png"/></a>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/linkedin-2.png"/></a>
+            <a href="#"><img class="m-2" src="https://img.icons8.com/ios/24/000000/instagram-new.png"/></a>
+          </div>
+        </div>
+      </div>
+      </center>
+    </section>
+    <!-- end team -->
+    <!-- footer -->
+    <footer id="contact">
+      <div class="quote mt-5">
+        <p class="footer-quote text-center">
+          “There’s no shortage of remarkable ideas, what’s missing 
+          is the will to execute them.” – Seth Godin
+        </p>
+      </div>
+      <hr class="hr-quote">
+      <div class="footer-main">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 p-3">
+            <h5 class="font-weight-bolder">goBIG.com</h5>
+            <hr class="hr-foot">
+            <p>We help our clients to make their products available to more regions instead 
+              of their native. Client can choose on which level he/she has to launch its product
+            </p>
+            <a href="#"><div class="about-btn text-center">
+              About Company
+            </div></a>
+          </div>
+          <div class="col-lg-3 col-md-6 p-3">
+            <h5 class="font-weight-bolder">Useful Links</h5>
+            <hr class="hr-foot">
+            <ul>
+              <li><a href="#" class="text-white">Home</a></li>
+              <hr class="hr-footer">
+              <li><a href="#about" class="text-white">About US</a></li>
+              <hr class="hr-footer">
+              <li><a href="#service" class="text-white">Services</a></li>
+              <hr class="hr-footer">
+              <li><a href="#" class="text-white">Terms and Conditions</a></li>
+              <hr class="hr-footer">
+              <li><a href="#" class="text-white">Privacy Policy</a></li>
+              <hr class="hr-footer">
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-12 p-3">
+            <h5 class="font-weight-bolder">Contact US</h5>
+            <hr class="hr-foot">
+            <div>
+              <div class="row text-center">
+                <div class="col-md-5 col-12 contact-detail">
+                  <h6 class="d-inline">Email</h6>
+                  <img src="./images/gmail.png" alt="gmail-logo" class="d-inline">
+                  <p>info@goBig.org.in</p>
+                </div>
+                <div class="col-md-5 col-12 contact-detail">
+                  <h6 class="d-inline">Call</h6>
+                  <img src="./images/call.png" class="d-inline" alt="call-logo">
+                  <p>+91 9999 99 99</p>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <h6>
+                  Social
+                  <img src="./images/share.png" alt="share-logo">
+                </h6>
+                <a href="#"><img src="./images/linkedin.png" alt="linkedin-logo" class="contact-img mt-1"></a>
+                <a href="#"><img src="./images/twitter.png" alt="twitter-logo" class="contact-img mt-1"></a>
+                <a href="#"><img src="./images/facebook.png" alt="facebook-logo" class="contact-img mt-1"></a>
+                <a href="#"><img src="./images/insta.png" alt="instagram-logo" class="contact-img mt-1"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- copyright -->
+    <copyright>
+      <div class="text-center p-3 bg-dark text-light">
+        © Copyright goBIG. All Rights Reserved
+      </div>
+    </copyright>
+    <!-- end copyright -->
+</body>
+</html>
